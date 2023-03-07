@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.3.0",
+    "autoprefixer": "^10.4.13",
+    "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.10.3",
+    "postcss": "^8.4.21",
+    "postcss-cli": "^10.1.0"
+  },
+  "name": "project-two",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
