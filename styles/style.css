@@ -12150,6 +12150,30 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.btn-rounded {
+  margin: 0;
+  font-weight: 500;
+  position: relative;
+  border: 0.1rem solid rgba(255, 255, 255, 0.6);
+  padding: 0.9375rem 4.375rem 0.9375rem 1.25rem;
+}
+.btn-rounded span {
+  top: 50%;
+  right: 5px;
+  width: 2.5rem;
+  height: 2.5rem;
+  position: absolute;
+  border-radius: 50%;
+  background: #9926fc;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.btn-rounded span i {
+  color: #fff;
+  font-size: 1rem;
+  line-height: 2.5rem;
+}
+
 /*!
  * Bootstrap  v5.2.3 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors

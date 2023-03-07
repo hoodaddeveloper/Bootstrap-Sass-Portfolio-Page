@@ -1,0 +1,26 @@
+@use "../variables" as *;
+
+.btn-rounded {
+  margin: 0;
+  font-weight: 500;
+  position: relative;
+  border: 0.1rem solid rgba($white, 0.6);
+  padding: 0.9375rem 4.375rem 0.9375rem 1.25rem;
+
+  span {
+    top: 50%;
+    right: 5px;
+    width: 2.5rem;
+    height: 2.5rem;
+    position: absolute;
+    border-radius: 50%;
+    background: $primary;
+    transform: translateY(-50%);
+
+    i {
+      color: $white;
+      font-size: 1rem;
+      line-height: 2.5rem;
+    }
+  }
+}
