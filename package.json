@@ -7,13 +7,21 @@
     "postcss": "^8.4.21",
     "postcss-cli": "^10.1.0"
   },
-  "name": "project-two",
+  "name": "bootstrap-sass-portfolio-page",
+  "description": "A beautiful portfolio page created with Bootstrap 5 and Sass.",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoodaddeveloper/Bootstrap-Sass-Portfolio-Page.git"
+  },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "bugs": {
+    "url": "https://github.com/hoodaddeveloper/Bootstrap-Sass-Portfolio-Page/issues"
+  },
+  "homepage": "https://github.com/hoodaddeveloper/Bootstrap-Sass-Portfolio-Page#readme"
 }
