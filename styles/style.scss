@@ -2,18 +2,18 @@
 @use "variables";
 
 // Importing the Components
-@use "Components/animations";
-@use "Components/buttons";
-@use "Components/mixins";
-@use "Components/typography";
+@use "components/animations";
+@use "components/buttons";
+@use "components/mixins";
+@use "components/typography";
 
 // Importing the Sections
-@use "Sections/navbar";
-@use "Sections/intro-section";
-@use "Sections/companies";
-@use "Sections/services";
-@use "Sections/testimonials.scss";
-@use "Sections/faq";
-@use "Sections/portfolio";
-@use "Sections/get-started";
-@use "Sections/footer";
+@use "sections/navbar";
+@use "sections/intro-section";
+@use "sections/companies";
+@use "sections/services";
+@use "sections/testimonials.scss";
+@use "sections/faq";
+@use "sections/portfolio";
+@use "sections/get-started";
+@use "sections/footer";
