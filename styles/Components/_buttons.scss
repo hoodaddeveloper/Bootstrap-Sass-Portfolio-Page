@@ -2,6 +2,9 @@
 @use "../components/mixins" as *;
 
 .btn-rounded {
+  @include media-breakpoint-down(sm) {
+    display: none;
+  }
   margin: 0;
   font-weight: 700;
   position: relative;
