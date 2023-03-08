@@ -15,8 +15,13 @@
       @include absoluteCenter;
       span {
         i {
-          font-size: 6rem;
+          cursor: pointer;
+          font-size: 6rem; //////////////////////////////////////////// HERE //////
           color: $secondary;
+
+          &::hover {
+            color:$black;
+          }
         }
       }
     }

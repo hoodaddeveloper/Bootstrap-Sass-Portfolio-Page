@@ -26,3 +26,24 @@
     }
   }
 }
+
+// Heading line
+.heading-line::before {
+  content: "";
+  width: 10rem;
+  height: 0.1rem;
+  margin: 0 auto;
+  display: block;
+  background: $primary;
+}
+
+.heading-line::after {
+  content: "";
+  width: 2rem;
+  height: 0.2rem;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 1rem;
+  padding-top: 0.5rem;
+  background: $primary;
+}
