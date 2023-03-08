@@ -12191,15 +12191,21 @@ textarea.form-control-lg {
 .display-2 {
   margin-bottom: 1rem;
   text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
 }
 .display-2--intro {
+  font-size: 6rem;
   font-weight: 700;
   display: inline-block;
+  font-family: "Poppins", sans-serif;
 }
 .display-2--description {
   display: block;
-  font-size: 1rem;
+  font-weight: 200;
+  font-size: 1.5rem;
   margin-top: 1.2rem;
+  text-transform: none;
+  margin-bottom: 1.5rem;
 }
 
 .menu {
@@ -12220,5 +12226,16 @@ textarea.form-control-lg {
   background: linear-gradient(to right, rgba(153, 38, 252, 0.95), rgba(209, 34, 227, 0.95));
   width: 100%;
   height: 100%;
-  padding: 10rem 0 0 0;
+  padding: 8rem 0 0 0;
+}
+
+.intros .video-box {
+  position: relative;
+}
+.intros .video-box a {
+  position: absolute;
+}
+.intros .video-box a span i {
+  font-size: 6rem;
+  color: #000;
 }/*# sourceMappingURL=style.css.map */
