@@ -1,9 +1,11 @@
 @use "../variables" as *;
+@use "../components/mixins" as *;
 
 .btn-rounded {
   margin: 0;
-  font-weight: 500;
+  font-weight: 700;
   position: relative;
+  background: $white;
   border: 0.1rem solid rgba($white, 0.6);
   padding: 0.9375rem 4.375rem 0.9375rem 1.25rem;
 
@@ -21,6 +23,15 @@
       color: $white;
       font-size: 1rem;
       line-height: 2.5rem;
+    }
+  }
+
+  &:hover {
+    @include gradient;
+    color: $white;
+
+    span {
+      background:rgba($black, 0.6);
     }
   }
 }
