@@ -12242,4 +12242,11 @@ textarea.form-control-lg {
 .intros .video-box a span i {
   font-size: 6rem;
   color: #d122e3;
+}
+
+.border-animation {
+  width: 6rem;
+  height: 6rem;
+  position: absolute;
+  border: 0.55rem solid #fff;
 }/*# sourceMappingURL=style.css.map */
