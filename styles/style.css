@@ -12152,24 +12152,24 @@ textarea.form-control-lg {
 }
 @-webkit-keyframes pulse-border {
   0% {
-    opacity: 100%;
+    opacity: 1;
     -webkit-transform: scale(1);
             transform: scale(1);
   }
   100% {
-    opacity: 30%;
+    opacity: 0;
     -webkit-transform: scale(1.5);
             transform: scale(1.5);
   }
 }
 @keyframes pulse-border {
   0% {
-    opacity: 100%;
+    opacity: 1;
     -webkit-transform: scale(1);
             transform: scale(1);
   }
   100% {
-    opacity: 30%;
+    opacity: 0;
     -webkit-transform: scale(1.5);
             transform: scale(1.5);
   }
@@ -12276,6 +12276,14 @@ textarea.form-control-lg {
   position: absolute;
   border-radius: 50%;
   border: 0.55rem solid #fff;
-  -webkit-animation: pulse-border 1s linear infinite;
-          animation: pulse-border 1s linear infinite;
+  -webkit-animation: pulse-border 1.5s linear infinite;
+          animation: pulse-border 1.5s linear infinite;
+}
+.border-animation--border-1 {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+.border-animation--border-2 {
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
 }/*# sourceMappingURL=style.css.map */

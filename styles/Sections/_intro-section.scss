@@ -31,5 +31,13 @@
   position: absolute;
   border-radius: 50%;
   border: 0.55rem solid $white;
-  animation: pulse-border 1s linear infinite;
+  animation: pulse-border 1.5s linear infinite;
+
+  &--border-1 {
+    animation-delay: 1s;
+  }
+
+  &--border-2 {
+    animation-delay: 1.5s;
+  }
 }
