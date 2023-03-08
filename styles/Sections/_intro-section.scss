@@ -31,4 +31,5 @@
   position: absolute;
   border-radius: 50%;
   border: 0.55rem solid $white;
+  animation: pulse-border 1s linear infinite;
 }

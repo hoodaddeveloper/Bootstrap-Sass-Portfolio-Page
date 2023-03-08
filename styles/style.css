@@ -12150,13 +12150,37 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+@-webkit-keyframes pulse-border {
+  0% {
+    opacity: 100%;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    opacity: 30%;
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+  }
+}
+@keyframes pulse-border {
+  0% {
+    opacity: 100%;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    opacity: 30%;
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+  }
+}
 .btn-rounded {
   margin: 0;
   font-weight: 700;
   position: relative;
   background: #fff;
   border: 0.1rem solid rgba(255, 255, 255, 0.6);
-  padding: 0.9375rem 4.375rem 0.9375rem 1.25rem;
+  padding: 0.9375rem 3.5rem 0.9375rem 1.25rem;
 }
 @media (max-width: 575.98px) {
   .btn-rounded {
@@ -12252,4 +12276,6 @@ textarea.form-control-lg {
   position: absolute;
   border-radius: 50%;
   border: 0.55rem solid #fff;
+  -webkit-animation: pulse-border 1s linear infinite;
+          animation: pulse-border 1s linear infinite;
 }/*# sourceMappingURL=style.css.map */
