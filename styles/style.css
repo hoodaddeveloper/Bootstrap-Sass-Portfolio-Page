@@ -12233,9 +12233,13 @@ textarea.form-control-lg {
   position: relative;
 }
 .intros .video-box a {
+  top: 40%;
+  left: 55%;
   position: absolute;
+  -webkit-transform: translate(-50% -50%);
+          transform: translate(-50% -50%);
 }
 .intros .video-box a span i {
   font-size: 6rem;
-  color: #000;
+  color: #d122e3;
 }/*# sourceMappingURL=style.css.map */
