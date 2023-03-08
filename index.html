@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="styles/style.css">
   <!-- Fontawesome -->
   <link rel="stylesheet" href="styles/fontawesome.css">
+  <!-- GLightbox CSS -->
+  <link rel="stylesheet" href="node_modules/glightbox/dist/css/glightbox.min.css">
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -80,7 +82,7 @@
         <div class="col-md-6 intros text-end">
           <div class="video-box">
             <img src="images/arts/intro-section-illustration.png" alt="video illutration" class="img-fluid">
-            <a>
+            <a class="glightbox">
               <span><i class="fas fa-play-circle"></i></span>
               <span class="border-animation border-animation--border-1"></span>
               <span class="border-animation border-animation--border-2"></span>
@@ -95,6 +97,18 @@
       </path>
     </svg>
   </section>
+
+  <!-- Glightbox JS -->
+  <script src="node_modules/glightbox/dist/js/glightbox.min.js"></script>
+  <script>
+    const lightbox = GLightbox({
+      'href': 'https://www.youtube.com/watch?v=Ga6RYejo6Hk',
+      'type': 'video',
+      'source': 'youtube', //vimeo, youtube or local
+      'width': 900,
+      'autoPlayVideos': 'true'
+    });
+  </script>
   <!-- Bootstrap JS -->
   <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>
