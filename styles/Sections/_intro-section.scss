@@ -11,17 +11,16 @@
 .intros {
   .video-box {
     position: relative;
+
     a {
       @include absoluteCenter;
-      span {
-        i {
-          cursor: pointer;
-          font-size: 6rem; //////////////////////////////////////////// HERE //////
-          color: $secondary;
 
-          &::hover {
-            color:$black;
-          }
+      span {
+        cursor: pointer;
+
+        i {
+          font-size: 6rem;
+          color: $secondary;
         }
       }
     }

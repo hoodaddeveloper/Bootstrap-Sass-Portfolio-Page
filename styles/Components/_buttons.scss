@@ -5,6 +5,7 @@
   @include media-breakpoint-down(sm) {
     display: none;
   }
+
   margin: 0;
   font-weight: 700;
   position: relative;
@@ -34,7 +35,7 @@
     color: $white;
 
     span {
-      background:rgba($black, 0.6);
+      background: rgba($black, 0.6);
     }
   }
 }
