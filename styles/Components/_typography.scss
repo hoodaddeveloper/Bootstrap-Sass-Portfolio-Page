@@ -27,7 +27,7 @@
   }
 }
 
-// Heading line
+// Heading Line
 .heading-line::before {
   content: "";
   width: 10rem;
@@ -53,7 +53,9 @@
   font-family: 'Poppins', sans-serif;
 }
 
-// Border-right
+// Border Right
 .border-right {
-  border-right: 0.1rem solid $gray;
+  border-right: 0.1rem solid $gray-300;
+  height: 100%;
 }
+
