@@ -54,13 +54,17 @@
 
   &--title {
     font-weight: 600;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     display: inline-block;
     text-transform: capitalize;
     -webkit-background-clip: text;
     font-family: 'Poppins', sans-serif;
     -webkit-text-fill-color: transparent;
     background-image: linear-gradient(to right, $primary, $secondary);
+
+    @include media-breakpoint-up(lg) {
+      font-size: 1.8rem;
+    }
   }
 }
 
