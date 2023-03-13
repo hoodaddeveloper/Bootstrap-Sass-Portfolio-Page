@@ -10996,3 +10996,10 @@ textarea.form-control-lg {
   background: linear-gradient(to right, rgba(153, 38, 252, 0.95), rgba(209, 34, 227, 0.95));
   position: relative;
 }
+#testimonials__card {
+  height: auto;
+  text-align: center;
+  padding: 2rem 1.25rem;
+  border-radius: 0.625rem;
+  background: rgba(255, 255, 255, 0.8);
+}

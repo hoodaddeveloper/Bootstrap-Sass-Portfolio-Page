@@ -5,4 +5,20 @@
   padding: 0;
   @include gradient;
   position: relative;
+
+  &__card {
+    height: auto;
+    text-align: center;
+    padding: 2rem 1.25rem;
+    border-radius: 0.625rem;
+    background: rgba($white, 0.8);
+  }
+
+  &__picture {
+
+  }
+  
+  &__name {
+
+  }
 }
