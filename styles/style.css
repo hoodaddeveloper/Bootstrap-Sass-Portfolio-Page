@@ -10866,13 +10866,18 @@ textarea.form-control-lg {
 }
 .display-3--title {
   font-weight: 600;
-  font-size: 1.8rem;
+  font-size: 1.2rem;
   display: inline-block;
   text-transform: capitalize;
   -webkit-background-clip: text;
   font-family: "Poppins", sans-serif;
   -webkit-text-fill-color: transparent;
   background-image: linear-gradient(to right, #9926fc, #d122e3);
+}
+@media (min-width: 992px) {
+  .display-3--title {
+    font-size: 1.8rem;
+  }
 }
 
 .border-right {
@@ -10959,6 +10964,14 @@ textarea.form-control-lg {
   padding: 1rem;
   margin-top: 0;
 }
+.services__content p {
+  font-size: 0.8rem;
+}
+@media (min-width: 992px) {
+  .services__content p {
+    font-size: 1rem;
+  }
+}
 @media (min-width: 992px) {
   .services__content {
     margin-top: 5rem;
@@ -10966,9 +10979,20 @@ textarea.form-control-lg {
 }
 .services__content .icon {
   color: #9926fc;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   margin-bottom: 0.5rem;
+}
+@media (min-width: 992px) {
+  .services__content .icon {
+    font-size: 2.5rem;
+  }
 }
 .services__content__pic {
   max-width: 100%;
+}
+
+#testimonials {
+  padding: 0;
+  background: linear-gradient(to right, rgba(153, 38, 252, 0.95), rgba(209, 34, 227, 0.95));
+  position: relative;
 }

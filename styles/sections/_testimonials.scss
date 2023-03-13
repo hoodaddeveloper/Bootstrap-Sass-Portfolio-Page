@@ -1,0 +1,8 @@
+@use "../variables" as *;
+@use "../components/mixins" as *;
+
+#testimonials {
+  padding: 0;
+  @include gradient;
+  position: relative;
+}
