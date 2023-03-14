@@ -11024,10 +11024,15 @@ textarea.form-control-lg {
 .testimonials__name {
   color: #fff;
   font-weight: 500;
-  padding-top: 4rem;
+  padding-top: 3rem;
   text-align: center;
   margin-bottom: 1rem;
 }
 .testimonials__name h3 {
   padding-top: 0.8rem;
+  text-transform: capitalize;
+}
+.testimonials__name p {
+  padding-bottom: 2rem;
+  text-transform: capitalize;
 }
