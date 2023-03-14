@@ -11043,18 +11043,18 @@ textarea.form-control-lg {
 
 .portfolio-box {
   width: 100%;
-  height: 18.5rem;
   overflow: hidden;
   position: relative;
+  max-height: 18.5rem;
   margin-bottom: 1.2rem;
   border-top: 0.5rem solid #bb6ef5;
 }
 .portfolio-box img {
   width: 100%;
-  height: 100%;
 }
 .portfolio-box .portfolio-info {
   top: 0;
+  left: 0;
   opacity: 0;
   width: 100%;
   height: 100%;
@@ -11071,9 +11071,17 @@ textarea.form-control-lg {
   transform: translate(-50% -50%);
 }
 .portfolio-box .portfolio-info .caption h4 {
+  display: block;
   text-transform: uppercase;
+}
+.portfolio-box:hover img {
+  transform: scale(1.5);
+  transition-duration: 1s;
+  transition-property: all;
 }
 .portfolio-box:hover .portfolio-info {
   opacity: 1;
   visibility: visible;
+  transition-duration: 1s;
+  transition-property: all;
 }
