@@ -11054,10 +11054,16 @@ textarea.form-control-lg {
 }
 .portfolio-box .portfolio-info {
   top: 0;
+  opacity: 0;
   width: 100%;
   height: 100%;
   position: absolute;
+  visibility: hidden;
   background: rgba(153, 38, 252, 0.75);
+}
+.portfolio-box .portfolio-info .portfolio-info:hover {
+  opacity: 1;
+  visibility: visible;
 }
 .portfolio-box .portfolio-info .caption {
   top: 41%;
