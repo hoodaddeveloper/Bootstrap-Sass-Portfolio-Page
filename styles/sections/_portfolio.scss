@@ -38,8 +38,10 @@
         text-transform: uppercase;
       }
     }
+  }
 
-    &:hover {
+  &:hover {
+    .portfolio-info {
       opacity: 1;
       visibility: visible;
     }
