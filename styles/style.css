@@ -10881,8 +10881,17 @@ textarea.form-control-lg {
 }
 
 .border-right {
-  height: 100%;
-  border-right: 0.1rem solid #dee2e6;
+  border-right: 0;
+}
+@media (min-width: 576px) {
+  .border-right {
+    height: 100%;
+    border-right: 0.1rem solid #dee2e6;
+  }
+}
+
+.gradient {
+  background: linear-gradient(to right, rgba(153, 38, 252, 0.95), rgba(209, 34, 227, 0.95));
 }
 
 .menu {
@@ -11089,4 +11098,17 @@ textarea.form-control-lg {
 .get-started {
   padding: 4rem 0;
   background: #e9ecef;
+}
+
+.cta-info {
+  margin: 1rem;
+  padding: 3rem;
+}
+.cta-info__list {
+  display: block;
+  position: relative;
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+  margin-bottom: 0.7rem;
+  list-style-type: none;
 }

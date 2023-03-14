@@ -70,6 +70,15 @@
 
 // Border Right
 .border-right {
-  height: 100%;
-  border-right: 0.1rem solid $gray-300;
+  border-right: 0;
+
+  @include media-breakpoint-up(sm) {
+    height: 100%;
+    border-right: 0.1rem solid $gray-300;
+  }
+}
+
+// Gradient Background
+.gradient {
+  background: linear-gradient(to right, rgba($primary, 0.95), rgba($secondary, 0.95));
 }
