@@ -11085,3 +11085,8 @@ textarea.form-control-lg {
   transition-duration: 1s;
   transition-property: all;
 }
+
+.get-started {
+  padding: 4rem 0;
+  background: #e9ecef;
+}
