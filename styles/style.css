@@ -11135,13 +11135,15 @@ textarea.form-control-lg {
 }
 .contact-box__info {
   padding: 0.4rem;
+  font-weight: 600;
 }
 .contact-box__info--title {
-  font-size: 1.4rem;
+  font-size: 1rem;
   text-decoration: none;
 }
 .contact-box__info--subtitle {
   font-size: 1rem;
   color: #6c757d;
+  font-size: 0.8rem;
   text-decoration: none;
 }
