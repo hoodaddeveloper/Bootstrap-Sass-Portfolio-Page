@@ -11112,3 +11112,20 @@ textarea.form-control-lg {
   margin-bottom: 0.7rem;
   list-style-type: none;
 }
+
+.form {
+  padding: 3rem;
+}
+.form button {
+  border: none;
+  color: #fff;
+}
+.form a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer {
+  padding-top: 1rem;
+  background: #151414;
+}
