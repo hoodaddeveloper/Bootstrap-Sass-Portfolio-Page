@@ -11129,3 +11129,7 @@ textarea.form-control-lg {
   padding-top: 1rem;
   background: #151414;
 }
+
+.contact-box {
+  position: relative;
+}
