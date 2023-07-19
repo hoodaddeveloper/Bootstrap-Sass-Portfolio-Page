@@ -11173,3 +11173,10 @@ textarea.form-control-lg {
   right: 1.875rem;
   bottom: 1.875rem;
 }
+.back-to-top i {
+  left: 16px;
+  bottom: 16px;
+  color: #fff;
+  font-size: 1rem;
+  position: absolute;
+}

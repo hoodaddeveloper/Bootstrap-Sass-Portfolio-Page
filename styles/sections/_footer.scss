@@ -57,4 +57,12 @@
   position: fixed;
   right: 1.875rem;
   bottom: 1.875rem;
+  
+  i {
+    left: 16px;
+    bottom: 16px;
+    color: $white;
+    font-size: 1rem;
+    position: absolute;
+  }
 }
