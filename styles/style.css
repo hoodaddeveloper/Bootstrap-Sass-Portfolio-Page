@@ -11164,3 +11164,12 @@ textarea.form-control-lg {
 .company-list a:hover {
   color: #9926fc;
 }
+
+.back-to-top {
+  width: 3rem;
+  height: 3rem;
+  z-index: 9999;
+  position: fixed;
+  right: 1.875rem;
+  bottom: 1.875rem;
+}

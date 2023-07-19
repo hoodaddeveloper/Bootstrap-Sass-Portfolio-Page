@@ -48,3 +48,13 @@
     }
   }
 }
+
+// Back to top Button
+.back-to-top {
+  width: 3rem;
+  height: 3rem;
+  z-index: 9999;
+  position: fixed;
+  right: 1.875rem;
+  bottom: 1.875rem;
+}
