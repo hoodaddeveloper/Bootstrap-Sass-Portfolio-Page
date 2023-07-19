@@ -11147,3 +11147,17 @@ textarea.form-control-lg {
   font-size: 0.8rem;
   text-decoration: none;
 }
+
+.company-list {
+  display: block;
+  position: relative;
+  list-style-type: none;
+}
+.company-list li {
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+}
+.company-list a {
+  color: #fff;
+  text-decoration: none;
+}
