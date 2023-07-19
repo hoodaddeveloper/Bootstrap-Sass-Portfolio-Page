@@ -11161,3 +11161,6 @@ textarea.form-control-lg {
   color: #fff;
   text-decoration: none;
 }
+.company-list a:hover {
+  color: #9926fc;
+}
